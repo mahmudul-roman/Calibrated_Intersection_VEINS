@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <input>
+       <net-file value="intersection.net.xml"/>
+       <route-files value="map.rou.xml"/>
+       <additional-files value="map.add.xml,detectors.add.xml"/>
+    </input>
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+    <processing>
+        <queue-output value="que.xml" />
+        <carfollow.model value="Krauss" />
+    </processing>
+    <time>
+    	<step-length value="0.1"/>
+    </time>
+	<output>
+    	<fcd-output value="without_information_filtered.xml"/>
+	</output>
+    <tls.actuated.show-detectors value="true"/>
+</configuration>

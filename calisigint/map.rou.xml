@@ -1,0 +1,136 @@
+<routes>
+    <vType accel="3.4" deccel="4.5" sigma=".3" tau="1.5" guiShape="passenger" id="car" length="4" maxSpeed="22.14" laneChangeModel="LC2013" minGap="3" type="passenger">
+    </vType>
+    <flow from="21" begin="0" departLane="random" departPos="0" end="900" id="f1" to="24" type="car" number="4" departSpeed="12" color="green" />
+    <flow from="21" begin="0" departLane="random" departPos="0" end="900" id="f2" to="10" type="car" number="13" departSpeed="12" color="green" />
+    <flow from="21" begin="0" departLane="random" departPos="0" end="900" id="f3" to="7" type="car" number="14" departSpeed="12" color="green" />
+    <flow from="25" begin="0" departLane="random" departPos="0" end="900" id="f4" to="28" type="car" number="4" departSpeed="12" color="green" />
+    <flow from="25" begin="0" departLane="random" departPos="0" end="900" id="f5" to="10" type="car" number="19" departSpeed="12" color="green" />
+    <flow from="25" begin="0" departLane="random" departPos="0" end="900" id="f6" to="7" type="car" number="7" departSpeed="12" color="green" />
+     <flow from="8" begin="0" departLane="random" departPos="0" end="900" id="f7" to="24" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="8" begin="0" departLane="random" departPos="0" end="900" id="f8" to="28" type="car" number="1" departSpeed="18" color="green" />
+    <flow from="8" begin="0" departLane="random" departPos="0" end="900" id="f9" to="10" type="car" number="298" departSpeed="18" color="green" />
+    <flow from="8" begin="0" departLane="random" departPos="0" end="900" id="f10" to="7" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="4" begin="0" departLane="random" departPos="0" end="900" id="f11" to="24" type="car" number="11" departSpeed="18" color="green" />
+    <flow from="4" begin="0" departLane="random" departPos="0" end="900" id="f12" to="28" type="car" number="1" departSpeed="18" color="green" />
+    <flow from="4" begin="0" departLane="random" departPos="0" end="900" id="f13" to="10" via="10" type="car" number="0" departSpeed="18" color="green" />
+    <flow from="4" begin="0" departLane="random" departPos="0" end="900" id="f14" to="7" type="car" number="352" departSpeed="18" color="green" /> 
+    <flow from="14" begin="0" departLane="random" departPos="0" end="900" id="f15" to="16" type="car" number="160" departSpeed="18" color="red" />
+    <flow from="14" begin="0" departLane="random" departPos="0" end="900" id="f16" to="13" type="car" number="40" departSpeed="18" color="red" />
+    <flow from="14" begin="0" departLane="random" departPos="0" end="900" id="f17" to="4" type="car" number="35" departSpeed="18" color="red" />
+    <flow from="14" begin="0" departLane="random" departPos="0" end="900" id="f18" to="4" type="car" number="35" departSpeed="18" color="red" />
+   <flow from="17" begin="0" departLane="random" departPos="0" end="900" id="f19" to="20" type="car" number="81" departSpeed="18" color="red" />
+    <flow from="17" begin="0" departLane="random" departPos="0" end="900" id="f20" to="13" type="car" number="35" departSpeed="18" color="red" />
+    <flow from="17" begin="0" departLane="random" departPos="0" end="900" id="f21" to="4" type="car" number="81" departSpeed="18" color="red" />
+    <flow from="17" begin="0" departLane="random" departPos="0" end="900" id="f22" to="16" type="car" number="6" departSpeed="18" color="red" />
+     <flow from="10" begin="0" departLane="random" departPos="random" end="900" id="f23" to="16" type="car" number="48" departSpeed="18" color="red" />
+    <flow from="10" begin="0" departLane="random" departPos="random" end="900" id="f24" to="20" type="car" number="34" departSpeed="18" color="red" />
+    <flow from="10" begin="0" departLane="random" departPos="random" end="900" id="f25" to="13" type="car" number="298" departSpeed="18" color="red" />
+    <flow from="10" begin="0" departLane="random" departPos="random" end="900" id="f26" to="4" type="car" number="7" departSpeed="18" color="red" />
+     <flow from="1" begin="0" departLane="random" departPos="0" end="900" id="f27" to="16" type="car" number="34" departSpeed="18" color="red" />
+    <flow from="1" begin="0" departLane="random" departPos="0" end="900" id="f28" to="20" type="car" number="34" departSpeed="18" color="red" />
+    <flow from="1" begin="0" departLane="random" departPos="0" end="900" id="f29" to="13" via="12" type="car" number="1" departSpeed="18" color="red" />
+    <flow from="1" begin="0" departLane="random" departPos="0" end="900" id="f30" to="3" type="car" number="352" departSpeed="18" color="red" />
+   
+     
+     <flow from="21" begin="900" departLane="random" departPos="0" end="1800" id="f31" to="24" type="car" number="3" departSpeed="12" color="green" />
+    <flow from="21" begin="900" departLane="random" departPos="0" end="1800" id="f32" to="10" type="car" number="11" departSpeed="12" color="green" />
+    <flow from="21" begin="900" departLane="random" departPos="0" end="1800" id="f33" to="7" type="car" number="19" departSpeed="12" color="green" />
+     <flow from="25" begin="900" departLane="random" departPos="0" end="1800" id="f34" to="28" type="car" number="2" departSpeed="12" color="green" />
+    <flow from="25" begin="900" departLane="random" departPos="0" end="1800" id="f35" to="10" type="car" number="14" departSpeed="12" color="green" />
+    <flow from="25" begin="900" departLane="random" departPos="0" end="1800" id="f36" to="7" type="car" number="5" departSpeed="12" color="green" />
+    <flow from="8" begin="900" departLane="random" departPos="0" end="1800" id="f37" to="24" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="8" begin="900" departLane="random" departPos="0" end="1800" id="f38" to="28" type="car" number="1" departSpeed="18" color="green" />
+    <flow from="8" begin="900" departLane="random" departPos="0" end="1800" id="f39" to="10" type="car" number="344" departSpeed="18" color="green" />
+    <flow from="8" begin="900" departLane="random" departPos="0" end="1800" id="f40" to="7" type="car" number="7" departSpeed="18" color="green" />
+    <flow from="4" begin="900" departLane="random" departPos="0" end="1800" id="f41" to="24" type="car" number="12" departSpeed="18" color="green" />
+    <flow from="4" begin="900" departLane="random" departPos="0" end="1800" id="f42" to="28" type="car" number="1" departSpeed="18" color="green" />
+    <flow from="4" begin="900" departLane="random" departPos="0" end="1800" id="f43" to="10" via="10" type="car" number="2" departSpeed="18" color="green" />
+    <flow from="4" begin="900" departLane="random" departPos="0" end="1800" id="f44" to="7" type="car" number="423" departSpeed="18" color="green" />  
+   <flow from="14" begin="900" departLane="random" departPos="0" end="1800" id="f45" to="16" type="car" number="143" departSpeed="18" color="red" />
+    <flow from="14" begin="900" departLane="random" departPos="0" end="1800" id="f46" to="13" type="car" number="45" departSpeed="18" color="red" />
+    <flow from="14" begin="900" departLane="random" departPos="0" end="1800" id="f47" to="4" type="car" number="42" departSpeed="18" color="red" />
+    <flow from="14" begin="900" departLane="random" departPos="0" end="1800" id="f48" to="20" type="car" number="7" departSpeed="18" color="red" />
+    <flow from="17" begin="900" departLane="random" departPos="0" end="1800" id="f49" to="20" type="car" number="84" departSpeed="18" color="red" />
+    <flow from="17" begin="900" departLane="random" departPos="0" end="1800" id="f50" to="13" type="car" number="40" departSpeed="18" color="red" />
+    <flow from="17" begin="900" departLane="random" departPos="0" end="1800" id="f51" to="4" type="car" number="65" departSpeed="18" color="red" />
+    <flow from="17" begin="900" departLane="random" departPos="0" end="1800" id="f52" to="16" type="car" number="2" departSpeed="18" color="red" />
+     <flow from="10" begin="900" departLane="random" departPos="random" end="1800" id="f53" to="16" type="car" number="76" departSpeed="18" color="red" />
+    <flow from="10" begin="900" departLane="random" departPos="random" end="1800" id="f54" to="20" type="car" number="33" departSpeed="18" color="red" />
+    <flow from="10" begin="900" departLane="random" departPos="random" end="1800" id="f55" to="13" type="car" number="217" departSpeed="18" color="red" />
+    <flow from="10" begin="900" departLane="random" departPos="random" end="1800" id="f56" to="4" type="car" number="12" departSpeed="18" color="red" />
+    <flow from="1" begin="900" departLane="random" departPos="0" end="1800" id="f57" to="16" type="car" number="47" departSpeed="18" color="red" />
+    <flow from="1" begin="900" departLane="random" departPos="0" end="1800" id="f58" to="20" type="car" number="29" departSpeed="18" color="red" />
+    <flow from="1" begin="900" departLane="random" departPos="0" end="1800" id="f59" to="13" via="12" type="car" number="0" departSpeed="18" color="red" />
+    <flow from="1" begin="900" departLane="random" departPos="0" end="1800" id="f60" to="3" type="car" number="423" departSpeed="18" color="red" />
+   
+   
+   
+   <flow from="21" begin="1800" departLane="random" departPos="0" end="2700" id="f61" to="24" type="car" number="0" departSpeed="12" color="green" />
+    <flow from="21" begin="1800" departLane="random" departPos="0" end="2700" id="f62" to="10" type="car" number="10" departSpeed="12" color="green" />
+    <flow from="21" begin="1800" departLane="random" departPos="0" end="2700" id="f63" to="7" type="car" number="17" departSpeed="12" color="green" />
+    <flow from="25" begin="1800" departLane="random" departPos="0" end="2700" id="f64" to="28" type="car" number="0" departSpeed="12" color="green" />
+    <flow from="25" begin="1800" departLane="random" departPos="0" end="2700" id="f65" to="13" type="car" number="18" departSpeed="12" color="green" />
+    <flow from="25" begin="1800" departLane="random" departPos="0" end="2700" id="f66" to="7" type="car" number="8" departSpeed="12" color="green" />
+     <flow from="8" begin="1800" departLane="random" departPos="0" end="2700" id="f67" to="24" type="car" number="14" departSpeed="18" color="green" />
+    <flow from="8" begin="1800" departLane="random" departPos="0" end="2700" id="f68" to="28" type="car" number="3" departSpeed="18" color="green" />
+    <flow from="8" begin="1800" departLane="random" departPos="0" end="2700" id="f69" to="10" type="car" number="350" departSpeed="18" color="green" />
+    <flow from="8" begin="1800" departLane="random" departPos="0" end="2700" id="f70" to="7" type="car" number="6" departSpeed="18" color="green" />
+      <flow from="4" begin="1800" departLane="random" departPos="0" end="2700" id="f71" to="24" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="4" begin="1800" departLane="random" departPos="0" end="2700" id="f72" to="28" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="4" begin="1800" departLane="random" departPos="0" end="2700" id="f73" to="10" type="car" number="6" departSpeed="18" color="green" />
+    <flow from="4" begin="1800" departLane="random" departPos="0" end="2700" id="f74" to="7" type="car" number="338" departSpeed="18" color="green" />
+     <flow from="14" begin="1800" departLane="random" departPos="0" end="2700" id="f75" to="16" type="car" number="124" departSpeed="18" color="red" />
+    <flow from="14" begin="1800" departLane="random" departPos="0" end="2700" id="f76" to="13" type="car" number="42" departSpeed="18" color="red" />
+    <flow from="14" begin="1800" departLane="random" departPos="0" end="2700" id="f77" to="4" type="car" number="38" departSpeed="18" color="red" />
+    <flow from="14" begin="1800" departLane="random" departPos="0" end="2700" id="f78" to="20" type="car" number="4" departSpeed="18" color="red" />
+   <flow from="17" begin="1800" departLane="random" departPos="0" end="2700" id="f79" to="20" type="car" number="93" departSpeed="18" color="red" />
+    <flow from="17" begin="1800" departLane="random" departPos="0" end="2700" id="f80" to="13" type="car" number="36" departSpeed="18" color="red" />
+    <flow from="17" begin="1800" departLane="random" departPos="0" end="2700" id="f81" to="4" type="car" number="45" departSpeed="18" color="red" />
+    <flow from="17" begin="1800" departLane="random" departPos="0" end="2700" id="f82" to="16" type="car" number="3" departSpeed="18" color="red" />
+     <flow from="10" begin="1800" departLane="random" departPos="random" end="2700" id="f83" to="16" type="car" number="75" departSpeed="18" color="red" />
+    <flow from="10" begin="1800" departLane="random" departPos="random" end="2700" id="f84" to="20" type="car" number="27" departSpeed="18" color="red" />
+    <flow from="10" begin="1800" departLane="random" departPos="random" end="2700" id="f85" to="13" type="car" number="307" departSpeed="18" color="red" />
+    <flow from="10" begin="1800" departLane="random" departPos="random" end="2700" id="f86" to="4" type="car" number="13" departSpeed="18" color="red" />
+    <flow from="1" begin="1800" departLane="random" departPos="0" end="2700" id="f87" to="16" type="car" number="69" departSpeed="18" color="red" />
+    <flow from="1" begin="1800" departLane="random" departPos="0" end="2700" id="f88" to="20" type="car" number="21" departSpeed="18" color="red" />
+    <flow from="1" begin="1800" departLane="random" departPos="0" end="2700" id="f89" to="13" via="12" type="car" number="1" departSpeed="18" color="red" />
+    <flow from="1" begin="1800" departLane="random" departPos="0" end="2700" id="f90" to="3" type="car" number="338" departSpeed="18" color="red" />
+    
+   
+   
+   
+   <flow from="21" begin="2700" departLane="random" departPos="0" end="3600" id="f91" to="24" type="car" number="3" departSpeed="12" color="green" />
+    <flow from="21" begin="2700" departLane="random" departPos="0" end="3600" id="f92" to="10" type="car" number="5" departSpeed="12" color="green" />
+    <flow from="21" begin="2700" departLane="random" departPos="0" end="3600" id="f93" to="7" type="car" number="13" departSpeed="12" color="green" />
+      <flow from="25" begin="2700" departLane="random" departPos="0" end="3600" id="f94" to="28" type="car" number="2" departSpeed="12" color="green" />
+    <flow from="25" begin="2700" departLane="random" departPos="0" end="3600" id="f95" to="10" type="car" number="31" departSpeed="12" color="green" />
+    <flow from="25" begin="2700" departLane="random" departPos="0" end="3600" id="f96" to="7" type="car" number="7" departSpeed="12" color="green" />
+   <flow from="8" begin="2700" departLane="random" departPos="0" end="3600" id="f97" to="24" type="car" number="15" departSpeed="18" color="green" />
+    <flow from="8" begin="2700" departLane="random" departPos="0" end="3600" id="f98" to="28" type="car" number="294" departSpeed="18" color="green" />
+    <flow from="8" begin="2700" departLane="random" departPos="0" end="3600" id="f99" to="10" type="car" number="4" departSpeed="18" color="green" />
+    <flow from="8" begin="2700" departLane="random" departPos="0" end="3600" id="f100" to="7" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="4" begin="2700" departLane="random" departPos="0" end="3600" id="f101" to="24" type="car" number="8" departSpeed="18" color="green" />
+    <flow from="4" begin="2700" departLane="random" departPos="0" end="3600" id="f102" to="28" type="car" number="1" departSpeed="18" color="green" />
+    <flow from="4" begin="2700" departLane="random" departPos="0" end="3600" id="f103" to="10" type="car" number="3" departSpeed="18" color="green" />
+    <flow from="4" begin="2700" departLane="random" departPos="0" end="3600" id="f104" to="7" type="car" number="298" departSpeed="18" color="green" />    
+    <flow from="14" begin="2700" departLane="random" departPos="0" end="3600" id="f105" to="16" type="car" number="131" departSpeed="18" color="red" />
+    <flow from="14" begin="2700" departLane="random" departPos="0" end="3600" id="f106" to="13" type="car" number="49" departSpeed="18" color="red" />
+    <flow from="14" begin="2700" departLane="random" departPos="0" end="3600" id="f107" to="4" type="car" number="38" departSpeed="18" color="red" />
+    <flow from="14" begin="2700" departLane="random" departPos="0" end="3600" id="f108" to="20" type="car" number="7" departSpeed="18" color="red" />
+    <flow from="17" begin="2700" departLane="random" departPos="0" end="3600" id="f109" to="20" type="car" number="64" departSpeed="18" color="red" />
+    <flow from="17" begin="2700" departLane="random" departPos="0" end="3600" id="f110" to="13" type="car" number="28" departSpeed="18" color="red" />
+    <flow from="17" begin="2700" departLane="random" departPos="0" end="3600" id="f111" to="4" type="car" number="42" departSpeed="18" color="red" />
+    <flow from="17" begin="2700" departLane="random" departPos="0" end="3600" id="f112" to="16" type="car" number="3" departSpeed="18" color="red" />
+    <flow from="10" begin="2700" departLane="random" departPos="random" end="3600" id="f113" to="16" type="car" number="41" departSpeed="18" color="red" />
+    <flow from="10" begin="2700" departLane="random" departPos="random" end="3600" id="f114" to="20" type="car" number="34" departSpeed="18" color="red" />
+    <flow from="10" begin="2700" departLane="random" departPos="random" end="3600" id="f115" to="13" type="car" number="264" departSpeed="18" color="red" />
+    <flow from="10" begin="2700" departLane="random" departPos="random" end="3600" id="f116" to="4" type="car" number="10" departSpeed="18" color="red" />
+    <flow from="1" begin="2700" departLane="random" departPos="0" end="3600" id="f117" to="16" type="car" number="54" departSpeed="18" color="red" />
+    <flow from="1" begin="2700" departLane="random" departPos="0" end="3600" id="f118" to="20" type="car" number="21" departSpeed="18" color="red" />
+    <flow from="1" begin="2700" departLane="random" departPos="0" end="3600" id="f119" to="13" via="12" type="car" number="1" departSpeed="18" color="red" />
+    <flow from="1" begin="2700" departLane="random" departPos="0" end="3600" id="f120" to="3" type="car" number="298" departSpeed="18" color="red" />    
+       
+
+
+</routes>
